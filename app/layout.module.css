@@ -1,0 +1,8 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10rem 1fr 10rem;
+}

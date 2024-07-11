@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 2rem 1rem 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.navLeft,
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.phone {
+  font-family: "Roboto", sans-serif;
+  margin-left: 4rem;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+.callText {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #ffac30;
+}
