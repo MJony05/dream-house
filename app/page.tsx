@@ -5,7 +5,7 @@ export default function Home() {
     <main className={styles.main}>
       <Image
         className={styles.image}
-        src={"/image.png"}
+        src={"/main-image.png"}
         width={689}
         height={343}
         alt="main"
