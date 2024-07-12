@@ -1,4 +1,6 @@
 .pagination {
   height: 100vh;
+  grid-column: 3/4;
+  grid-row: 1/4;
   /* background-color: rgb(17, 255, 0); */
 }

@@ -5,4 +5,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 10rem 1fr 10rem;
+  grid-template-rows: 65px max-content;
+  z-index: 100;
+  overflow: none;
 }

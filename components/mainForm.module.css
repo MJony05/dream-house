@@ -1,0 +1,41 @@
+.mainForm {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 50px 90px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 280px;
+}
+.form input {
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+.form button {
+  background-color: #00000000;
+  border: none;
+  margin-top: 1rem;
+}
+.buttonText {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.75px;
+  letter-spacing: 0.1em;
+  color: #ffac30;
+  width: 100%;
+}
+.arrow {
+  object-fit: contain;
+}
