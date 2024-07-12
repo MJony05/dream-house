@@ -4,9 +4,7 @@
   right: 0;
   padding: 50px 90px;
   background-color: white;
-  z-index: 1000;
 }
-
 .form {
   display: flex;
   flex-direction: column;

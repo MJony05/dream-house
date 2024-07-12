@@ -8,7 +8,7 @@ const Sidebar = () => {
         className={styles.logo}
         src={"/icons/logo.png"}
         width={30}
-        height={30}
+        height={40}
         alt="logo"
       />
       <div className={styles.divForP}>

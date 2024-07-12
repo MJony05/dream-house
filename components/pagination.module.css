@@ -2,5 +2,9 @@
   height: 100vh;
   grid-column: 3/4;
   grid-row: 1/4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
   /* background-color: rgb(17, 255, 0); */
 }
