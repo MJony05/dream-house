@@ -11,7 +11,7 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <div style={{ position: "absolute", left: "150px" }}>
-        <Navbar />
+        <Navbar props={true} />
       </div>
       <Sidebar />
       <Pagination />

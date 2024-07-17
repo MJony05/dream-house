@@ -11,6 +11,7 @@
   width: calc(100vw - 300px);
   top: 0;
   left: 0;
+  z-index: 100;
 }
 .navLeft,
 .navRight {
@@ -38,4 +39,75 @@
   letter-spacing: 0.1em;
   text-align: right;
   color: #ffac30;
+}
+.navbarBody {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #0000006d;
+}
+.navbarBodyPlan {
+  left: -150px;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: #0000006d;
+}
+.footer {
+  width: calc(100vw - 300px);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0 45px;
+  z-index: 100;
+  left: 150px;
+}
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 1.5rem 0;
+}
+.footerTop div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.footerTop h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 19.07px;
+  letter-spacing: 5px;
+  color: #000;
+  text-transform: uppercase;
+}
+.footerLogo,
+.footerArrow {
+  object-fit: contain;
+}
+.footerBottomItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footerBottomIcon {
+  object-fit: contain;
 }

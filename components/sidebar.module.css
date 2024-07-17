@@ -10,6 +10,7 @@
   position: absolute;
   width: 150px;
   left: 0;
+  z-index: 100;
 }
 .logo {
   object-fit: contain;
